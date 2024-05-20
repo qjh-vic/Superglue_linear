@@ -9,4 +9,6 @@ I can clearly see that the loss, loss_val are both decreasing when the epoch inc
 
 And I don’t see any significant change when I change the test_rate, which shows below. Maybe the difference is the validation loss is not that stable.
 
+I think if I can let the pair match and improve the loss function. The performance of my model can improve a lot. 
+
 
