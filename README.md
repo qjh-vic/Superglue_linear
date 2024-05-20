@@ -5,3 +5,6 @@ In my code, the train.py is the document that can train and evaluate the SuperGl
 
 I use shrec_16 as my dataset in this experiment, I write a blender.py to transfer the 3D model to a pair of image. Then I use sift to detect the key points and figure out which are matched. Then I separate it into test and train which are contained in data file. In the training process, I separate the test dataset into test and validation dataset by the input rate. I can use ‘—test_rate’  to set how many percentage the test dates want to occupy. The default value is 0.8. Then I use these two dataset as input to train and valuate SuperGlue model and my model which I called it SuperGlue_linear. Here is three figures of two model, accuracy, loss, and loss_val. 
 
+I can clearly see that the loss, loss_val are both decreasing when the epoch increasing. However the accuracy of my model  is not increasing significantly. I think this probably because the way I set the loss can’t significantly influence the accuracy.(??)
+
+And I don’t see any significant change when I change the test_rate, which shows below.
