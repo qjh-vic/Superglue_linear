@@ -7,11 +7,14 @@ I use shrec_16 as my dataset in this experiment, I write a blender.py to transfe
 
 ![image](SuperGlue_8.jpg)
 ![image](SuperGlue_linear_8.jpg)
+
 I can clearly see that the loss, loss_val are both decreasing when the epoch increasing. However the accuracy of my model is not increasing significantly. I think this probably because the way I set the loss can’t significantly influence the accuracy.(??)
 
 And I don’t see any significant change when I change the test_rate, which shows below. Maybe the difference is the validation loss is not that stable.
+
 ![image](SuperGlue_9.jpg)
 ![image](SuperGlue_linear_9.jpg)
+
 I think if I can let the pair match and improve the loss function. The performance of my model can improve a lot. 
 
 
